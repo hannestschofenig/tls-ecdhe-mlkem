@@ -168,8 +168,8 @@ and abort with an illegal_parameter alert if it fails.
 
 ## Shared secret
 
-For X25519MLKEM768, the shared secret is the concatenation of the ML-KEM
-shared secret and the X25519 shared secret. The shared secret is 64 bytes
+For X25519MLKEM768, the shared secret is the concatenation of the X25519 and the ML-KEM
+shared secret. The shared secret is 64 bytes
 (32 bytes for each part).
 
 For SecP256r1MLKEM768, the shared secret is the concatenation of the
